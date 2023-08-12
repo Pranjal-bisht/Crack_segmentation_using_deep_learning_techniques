@@ -1,5 +1,5 @@
 from tensorflow.keras.optimizers import Adam
-from model_definitions import create_segmentation_model
+from model_definitions import create_segmentation_model, deeplabv3_plus
 from evaluation_metrics import iou, dice_coefficient, f1_score, mean_absolute_error, mean_squared_error,precision, recall
 from data_preprocessing import load_data
 from losses import focal_loss
