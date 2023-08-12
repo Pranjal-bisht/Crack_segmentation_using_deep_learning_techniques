@@ -1,5 +1,7 @@
 # Masonry Surface Crack Detection using Deep Learning
 
+![Masonry Surface Cracks](./project_figures/results_pic.JPG)
+
 ## Introduction
 Detecting cracks on masonry surfaces, especially on rough surfaces like masonry, is a challenging task. This repository presents a deep learning-based approach for the detection of surface cracks on masonry surfaces. The research focuses on comparing the performance of various deep learning architectures for the semantic segmentation of cracks on masonry surfaces.
 
