@@ -33,3 +33,5 @@ def create_segmentation_model(model_type):
         metrics=['accuracy', iou, dice_coefficient, f1_score, mean_absolute_error, mean_squared_error, precision, recall],
     )
     return model
+
+
