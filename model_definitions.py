@@ -42,6 +42,7 @@ def create_segmentation_model(model_type):
     return model
 
 
+# deeplab model
 def SqueezeAndExcite(inputs, ratio=8):
     init = inputs
     filters = init.shape[-1]
